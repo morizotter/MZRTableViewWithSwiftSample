@@ -10,6 +10,12 @@ This is the easy implementation of TableView. This sample consists of 3 points b
 2. A custom model
 3. A custom cell
 
+I write only 3 files below. Take a glimple how easy and less code with Swift.
+
+- MZRViewController
+- MZRModel
+- MZRCell
+
 You can understand the similarity of Swift to Objective-C in this project.
 
 ## Author
