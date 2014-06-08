@@ -1,4 +1,4 @@
-# MZRTableViewWithSwift
+# MZRTableViewWithSwiftSample
 
 It's my first sample project using **Swift**.
 
