@@ -1,5 +1,5 @@
 //
-//  MZRModel.swift
+//  MZREntity.swift
 //  MZRTableViewWithSwift
 //
 //  Created by MORITA NAOKI on 2014/06/09.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-class MZRModel: NSObject {
+class MZREntity: NSObject {
     
-    var title:NSString
-    var message:NSString
+    var title:String
+    var message:String
     
     init(title: String, message: String) {
         self.title = title

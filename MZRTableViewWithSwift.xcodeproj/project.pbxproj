@@ -12,7 +12,7 @@
 		FF7C67181944CBE100017D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C67161944CBE100017D47 /* Main.storyboard */; };
 		FF7C671A1944CBE100017D47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7C67191944CBE100017D47 /* Images.xcassets */; };
 		FF7C67261944CBE100017D47 /* MZRTableViewWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C67251944CBE100017D47 /* MZRTableViewWithSwiftTests.swift */; };
-		FF7C67301944CCAE00017D47 /* MZRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C672F1944CCAE00017D47 /* MZRModel.swift */; };
+		FF7C67301944CCAE00017D47 /* MZREntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C672F1944CCAE00017D47 /* MZREntity.swift */; };
 		FF7C67321944D03D00017D47 /* MZRCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C67311944D03D00017D47 /* MZRCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		FF7C671F1944CBE100017D47 /* MZRTableViewWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZRTableViewWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C67241944CBE100017D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7C67251944CBE100017D47 /* MZRTableViewWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZRTableViewWithSwiftTests.swift; sourceTree = "<group>"; };
-		FF7C672F1944CCAE00017D47 /* MZRModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZRModel.swift; sourceTree = "<group>"; };
+		FF7C672F1944CCAE00017D47 /* MZREntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZREntity.swift; sourceTree = "<group>"; };
 		FF7C67311944D03D00017D47 /* MZRCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZRCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,11 +81,11 @@
 			children = (
 				FF7C67121944CBE100017D47 /* AppDelegate.swift */,
 				FF7C67141944CBE100017D47 /* MZRViewController.swift */,
+				FF7C67311944D03D00017D47 /* MZRCell.swift */,
+				FF7C672F1944CCAE00017D47 /* MZREntity.swift */,
 				FF7C67161944CBE100017D47 /* Main.storyboard */,
 				FF7C67191944CBE100017D47 /* Images.xcassets */,
 				FF7C67101944CBE100017D47 /* Supporting Files */,
-				FF7C672F1944CCAE00017D47 /* MZRModel.swift */,
-				FF7C67311944D03D00017D47 /* MZRCell.swift */,
 			);
 			path = MZRTableViewWithSwift;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 				FF7C67151944CBE100017D47 /* MZRViewController.swift in Sources */,
 				FF7C67321944D03D00017D47 /* MZRCell.swift in Sources */,
 				FF7C67131944CBE100017D47 /* AppDelegate.swift in Sources */,
-				FF7C67301944CCAE00017D47 /* MZRModel.swift in Sources */,
+				FF7C67301944CCAE00017D47 /* MZREntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD345140-3FF1-4697-A085-E3270F0BA573</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MZRTableViewWithSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AFD00382-5006-4D48-B38B-BF444D06D419</key>
+		<string>ssh://github.com/morizotter/MZRTableViewWithSwiftSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MZRTableViewWithSwift.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AFD00382-5006-4D48-B38B-BF444D06D419</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/morizotter/MZRTableViewWithSwiftSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AFD00382-5006-4D48-B38B-BF444D06D419</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AFD00382-5006-4D48-B38B-BF444D06D419</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MZRTableViewWithSwiftSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

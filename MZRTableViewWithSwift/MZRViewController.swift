@@ -11,13 +11,14 @@ import UIKit
 class MZRViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView
-    var list = MZRModel[]()
+    var list = MZREntity[]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "sample"
         for i in 0..30 {
-            list.append(MZRModel(title:"Swift\(i)", message:"It's my first swift project! Yey!"))
+            list.append(MZREntity(title:"Swift\(i)", message:"It's my first swift project! Yey!"))
         }
     }
     
@@ -33,6 +34,5 @@ class MZRViewController: UIViewController, UITableViewDataSource, UITableViewDel
         
         return cell
     }
-
 }
 
